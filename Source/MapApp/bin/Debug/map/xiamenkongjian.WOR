@@ -1,0 +1,213 @@
+!Workspace
+!Version 400
+!Charset WindowsSimpChinese
+Open Table "Administrative" As Administrative Interactive
+Open Table "Bank" As Bank Interactive
+Open Table "Block" As Block Interactive
+Open Table "Communication" As Communication Interactive
+Open Table "Company" As Company Interactive
+Open Table "Education" As Education Interactive
+Open Table "GOV" As GOV Interactive
+Open Table "Hospital" As Hospital Interactive
+Open Table "Hotel" As Hotel Interactive
+Open Table "Junction" As Junction Interactive
+Open Table "Market" As Market Interactive
+Open Table "Plant" As Plant Interactive
+Open Table "Police" As Police Interactive
+Open Table "PUBLIC" As PUBLIC Interactive
+Open Table "Publicsite" As Publicsite Interactive
+Open Table "Residential" As Residential Interactive
+Open Table "Restaurant" As Restaurant Interactive
+Open Table "Road middle line" As Road_middle_line Interactive
+Open Table "Roadface" As Roadface Interactive
+Open Table "Tour_site" As Tour_site Interactive
+Open Table "Traffic" As Traffic Interactive
+Open Table "Traffic_center" As Traffic_center Interactive
+Open Table "WATER" As WATER Interactive
+Open Table "tukou" As tukou
+Open Table "图名" As 图名
+Map From 图名,tukou,GOV,Hospital,Education,Hotel,
+  Bank,Publicsite,Communication,Police,Market,Company,
+  Residential,Restaurant,Tour_site,Traffic,Traffic_center,Junction,
+  Road_middle_line,Roadface,WATER,Plant,PUBLIC,Block,Administrative 
+  Position (5.33333,0) Units "in"
+  Width 5.25 Units "in" Height 6.48958 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 1, 104
+  Center (118.0848837,24.48272561)
+  Zoom 12.11634275 Units "km"
+  Preserve Zoom Display Zoom
+  Distance Units "km" Area Units "sq km" XY Units "degree"
+Set Map Layer 0 Selectable
+Set Map
+  Layer 1
+    Display Graphic
+    Label Line Arrow Position Right Font ("Arial",0,12,0) Pen (1,2,0) 
+      With name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 2
+    Display Graphic
+    Label Line Arrow Position Right Font ("Arial",0,12,0) Pen (1,2,0) 
+      With id
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 3
+    Display Graphic
+    Zoom (0, 6.5) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,16711680) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 4
+    Display Graphic
+    Zoom (0, 5.5) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,16728064) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Graphic
+    Zoom (0, 5.5) Units "km" 
+    Label Line Arrow Position Right Font ("Arial",1,10,38368) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 6
+    Display Graphic
+    Zoom (0, 4.179) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,22015) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 7
+    Display Graphic
+    Zoom (0, 4.179) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,32768) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 8
+    Display Graphic
+    Zoom (0, 4.179) Units "km" 
+    Label Line Arrow Position Right Font ("楷体_GB2312",257,10,32896,16777215) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 9
+    Display Graphic
+    Zoom (0, 4.179) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,5293567) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 10
+    Display Graphic
+    Zoom (0, 4.179) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,128) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 11
+    Display Graphic
+    Zoom (0, 3.595) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,255) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 12
+    Display Graphic
+    Zoom (0, 3.595) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,8388736) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 13
+    Display Graphic
+    Zoom (0, 3.595) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,8421631) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 14
+    Display Graphic
+    Zoom (0, 3.595) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,12432) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 15
+    Display Graphic
+    Zoom (0, 2.696) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,16711680) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 16
+    Display Graphic
+    Zoom (0, 2.696) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 17
+    Display Graphic
+    Zoom (0, 2.696) Units "km" 
+    Label Line Arrow Position Right Font ("宋体",1,10,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 18
+    Display Off
+    Label Line Arrow Position Right Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Type
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 19
+    Display Graphic
+    Label Line Arrow Position Above Font ("宋体",1,10,8388608) Pen (1,2,0) 
+      With Name
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 20
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Type
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 21
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 22
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 23
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 24
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 25
+    Display Graphic
+    Label Line None Position Center Font ("Arial",0,12,0) Pen (1,2,0) 
+      With Name
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+Set Map Layer 1 Editable
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow

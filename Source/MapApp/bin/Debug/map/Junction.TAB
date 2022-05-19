@@ -1,0 +1,12 @@
+!table
+!version 450
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 5
+    Type Smallint ;
+    SubType Integer ;
+    LowestLayer Smallint ;
+    HighestLayer Smallint ;
+    LayerNumber Smallint ;

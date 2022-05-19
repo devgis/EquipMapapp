@@ -1,0 +1,16 @@
+!table
+!version 450
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 9
+    Type Smallint ;
+    SubType Smallint ;
+    Name Char (50) ;
+    Direction Smallint ;
+    Width Smallint ;
+    GBCode Char (10) ;
+    Belong Smallint ;
+    BelongFName Char (50) ;
+    BelongTName Char (50) ;

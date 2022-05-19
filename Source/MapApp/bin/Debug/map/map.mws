@@ -1,0 +1,2092 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<WorkSpace name="" version="MXP_WorkSpace_1_3" date="2014-03-08T15:20:08+08:00" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.mapinfo.com/mxp">
+  <ConnectionSet />
+  <DataSourceDefinitionSet>
+    <TABFileDataSourceDefinition id="id1" readOnly="false">
+      <DataSourceName>Administrative</DataSourceName>
+      <FileName>Administrative.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id2" readOnly="false">
+      <DataSourceName>Bank</DataSourceName>
+      <FileName>Bank.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id3" readOnly="false">
+      <DataSourceName>Block</DataSourceName>
+      <FileName>Block.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id4" readOnly="false">
+      <DataSourceName>Communication</DataSourceName>
+      <FileName>Communication.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id5" readOnly="false">
+      <DataSourceName>Company</DataSourceName>
+      <FileName>Company.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id6" readOnly="false">
+      <DataSourceName>Education</DataSourceName>
+      <FileName>Education.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id7" readOnly="false">
+      <DataSourceName>GOV</DataSourceName>
+      <FileName>GOV.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id8" readOnly="false">
+      <DataSourceName>Hospital</DataSourceName>
+      <FileName>Hospital.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id9" readOnly="false">
+      <DataSourceName>Hotel</DataSourceName>
+      <FileName>Hotel.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id10" readOnly="false">
+      <DataSourceName>Junction</DataSourceName>
+      <FileName>Junction.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id11" readOnly="false">
+      <DataSourceName>Market</DataSourceName>
+      <FileName>Market.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id12" readOnly="false">
+      <DataSourceName>Plant</DataSourceName>
+      <FileName>Plant.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id13" readOnly="false">
+      <DataSourceName>Police</DataSourceName>
+      <FileName>Police.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id14" readOnly="false">
+      <DataSourceName>PUBLIC</DataSourceName>
+      <FileName>PUBLIC.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id15" readOnly="false">
+      <DataSourceName>Publicsite</DataSourceName>
+      <FileName>Publicsite.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id16" readOnly="false">
+      <DataSourceName>Residential</DataSourceName>
+      <FileName>Residential.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id17" readOnly="false">
+      <DataSourceName>Restaurant</DataSourceName>
+      <FileName>Restaurant.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id18" readOnly="false">
+      <DataSourceName>Road middle line</DataSourceName>
+      <FileName>Road middle line.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id19" readOnly="false">
+      <DataSourceName>Roadface</DataSourceName>
+      <FileName>Roadface.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id20" readOnly="false">
+      <DataSourceName>Tour_site</DataSourceName>
+      <FileName>Tour_site.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id21" readOnly="false">
+      <DataSourceName>Traffic</DataSourceName>
+      <FileName>Traffic.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id22" readOnly="false">
+      <DataSourceName>Traffic_center</DataSourceName>
+      <FileName>Traffic_center.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id23" readOnly="false">
+      <DataSourceName>tukou</DataSourceName>
+      <FileName>tukou.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id24" readOnly="false">
+      <DataSourceName>WATER</DataSourceName>
+      <FileName>WATER.TAB</FileName>
+    </TABFileDataSourceDefinition>
+    <TABFileDataSourceDefinition id="id25" readOnly="false">
+      <DataSourceName>图名</DataSourceName>
+      <FileName>图名.TAB</FileName>
+    </TABFileDataSourceDefinition>
+  </DataSourceDefinitionSet>
+  <MapDefinitionSet>
+    <MapDefinition id="id26" name="map" alias="Map2">
+      <DisplayConditions>
+        <MapSize uom="mapinfo:imagesize pixel">
+          <ImageWidth>986</ImageWidth>
+          <ImageHeight>615</ImageHeight>
+        </MapSize>
+        <ZoomAndCenter>
+          <MapZoom uom="mapinfo:length mi">2.28354</MapZoom>
+          <gml:Point srsName="mapinfo:coordsys 1,104">
+            <gml:coordinates>118.08300000000003,24.479</gml:coordinates>
+          </gml:Point>
+        </ZoomAndCenter>
+        <DisplayCoordSys>
+          <SRSName>mapinfo:coordsys 1,104</SRSName>
+        </DisplayCoordSys>
+        <ResizeMethod>preserveZoom</ResizeMethod>
+        <RasterConditions dither="halfTone" rasterReprojectionResampling="cubicConvolution" rasterReprojection="none" trueColor="true" optimizeRasterLayers="screen" optimizeVectorLayers="screen" />
+        <RenderingOptions enableOpacity="false" enableAntiAlias="false" />
+      </DisplayConditions>
+      <LayerList>
+        <LabelLayer id="id27" name="map 标记" alias="mapLabels" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="false">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <LabelSourceList>
+            <LabelSource maxLabels="2147483647" name="Administrative">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id1" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="none">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Block">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id3" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="none">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="PUBLIC">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id14" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="none">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Plant">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id12" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="none">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="WATER">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id24" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="none">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Roadface">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id19" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Type</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="false" end="none">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Road middle line">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id18" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="interLayer" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="center">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="maroon" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>center</HorizontalAlignment>
+                      <VerticalAlignment>bottom</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>0</XOffset>
+                      <YOffset>-2</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Junction">
+              <Visibility visible="false">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id10" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Type</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Traffic_center">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id22" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Traffic">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id21" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Tour_site">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id20" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="red" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Restaurant">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id17" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="rgb(0,48,144)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Residential">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id16" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="rgb(128,128,255)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Company">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id5" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="purple" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Market">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id11" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="blue" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Police">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id13" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="navy" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Communication">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id4" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="rgb(80,197,255)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Publicsite">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id15" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="楷体_GB2312" font-style="normal" effect="white" effect-opacity="1" effect-type="halo" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="teal" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Bank">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id2" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="green" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Hotel">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id9" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="rgb(0,85,255)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Education">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 3.41754</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id6" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 3.41754</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="rgb(0,149,224)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="Hospital">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 3.41754</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id8" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 3.41754</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="rgb(255,64,0)" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="GOV">
+              <Visibility visible="true">
+                <VisibleRange enabled="true">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 4.03891</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id7" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="true" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 4.03891</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="宋体" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="bold" text-decoration="none" text-case="default" shadow="false" expand="false" size="10" size-unit="mapinfo:length pt" stroke="red" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>Name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="tukou">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id23" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>id</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+            <LabelSource maxLabels="2147483647" name="图名">
+              <Visibility visible="true">
+                <VisibleRange enabled="false">
+                  <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                </VisibleRange>
+              </Visibility>
+              <DataSourceRef ref="id25" />
+              <BaseLabelProperties>
+                <LabelProperties>
+                  <LabelVisibility visible="false" allowOverlap="false" allowDuplicates="all" allowOutOfView="false">
+                    <VisibleRange enabled="false">
+                      <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 100000</ZoomRange>
+                    </VisibleRange>
+                  </LabelVisibility>
+                  <LabelText justification="left">
+                    <BaseLabelStyle>
+                      <FontStyle family="Arial" font-style="normal" effect="white" effect-opacity="1" effect-type="none" font-weight="normal" text-decoration="none" text-case="default" shadow="false" expand="false" size="12" size-unit="mapinfo:length pt" stroke="black" />
+                    </BaseLabelStyle>
+                    <StringTokenList>
+                      <StringToken>
+                        <StringValueExpression>
+                          <AttributeName>name</AttributeName>
+                        </StringValueExpression>
+                      </StringToken>
+                    </StringTokenList>
+                    <LabelCharacterLimit spacing="1">2147483647</LabelCharacterLimit>
+                  </LabelText>
+                  <LabelCallout visible="true" end="arrow">
+                    <LineStyle stroke="black" stroke-opacity="1" width="1" width-unit="mapinfo:imagesize pixel">
+                      <Pen>mapinfo:pen 2</Pen>
+                    </LineStyle>
+                  </LabelCallout>
+                  <LabelReferencePosition recalculate="outOfView">
+                    <LineLabelPositionInterval>0</LineLabelPositionInterval>
+                  </LabelReferencePosition>
+                  <LabelLayout>
+                    <Alignment>
+                      <HorizontalAlignment>left</HorizontalAlignment>
+                      <VerticalAlignment>center</VerticalAlignment>
+                    </Alignment>
+                    <Offset uom="mapinfo:imagesize pixel">
+                      <XOffset>2</XOffset>
+                      <YOffset>0</YOffset>
+                    </Offset>
+                    <LabelRelativeOrientation>parallel</LabelRelativeOrientation>
+                  </LabelLayout>
+                  <LabelBaseSize useScale="false">
+                    <MapScale>0</MapScale>
+                  </LabelBaseSize>
+                  <LabelPriority>
+                    <MajorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MajorPriority>
+                    <MinorPriority>
+                      <NumericValueExpression>
+                        <MapinfoNumericExpression>
+                        </MapinfoNumericExpression>
+                      </NumericValueExpression>
+                    </MinorPriority>
+                  </LabelPriority>
+                </LabelProperties>
+              </BaseLabelProperties>
+              <LabelThemeList />
+            </LabelSource>
+          </LabelSourceList>
+        </LabelLayer>
+        <FeatureLayer id="id28" name="图名" alias="图名" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id25" />
+        </FeatureLayer>
+        <FeatureLayer id="id29" name="tukou" alias="tukou" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id23" />
+        </FeatureLayer>
+        <FeatureLayer id="id30" name="GOV" alias="GOV" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 4.03891</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id7" />
+        </FeatureLayer>
+        <FeatureLayer id="id31" name="Hospital" alias="Hospital" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 3.41754</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id8" />
+        </FeatureLayer>
+        <FeatureLayer id="id32" name="Education" alias="Education" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 3.41754</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id6" />
+        </FeatureLayer>
+        <FeatureLayer id="id33" name="Hotel" alias="Hotel" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id9" />
+        </FeatureLayer>
+        <FeatureLayer id="id34" name="Bank" alias="Bank" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id2" />
+        </FeatureLayer>
+        <FeatureLayer id="id35" name="Publicsite" alias="Publicsite" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id15" />
+        </FeatureLayer>
+        <FeatureLayer id="id36" name="Communication" alias="Communication" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id4" />
+        </FeatureLayer>
+        <FeatureLayer id="id37" name="Police" alias="Police" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.59671</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id13" />
+        </FeatureLayer>
+        <FeatureLayer id="id38" name="Market" alias="Market" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id11" />
+        </FeatureLayer>
+        <FeatureLayer id="id39" name="Company" alias="Company" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id5" />
+        </FeatureLayer>
+        <FeatureLayer id="id40" name="Residential" alias="Residential" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id16" />
+        </FeatureLayer>
+        <FeatureLayer id="id41" name="Restaurant" alias="Restaurant" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 2.23383</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id17" />
+        </FeatureLayer>
+        <FeatureLayer id="id42" name="Tour_site" alias="Tour_site" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id20" />
+        </FeatureLayer>
+        <FeatureLayer id="id43" name="Traffic" alias="Traffic" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id21" />
+        </FeatureLayer>
+        <FeatureLayer id="id44" name="Traffic_center" alias="Traffic_center" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="true">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 1.67522</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id22" />
+        </FeatureLayer>
+        <FeatureLayer id="id45" name="Junction" alias="Junction" volatile="unknown">
+          <Visibility visible="false">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id10" />
+        </FeatureLayer>
+        <FeatureLayer id="id46" name="Road middle line" alias="Road middle line" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id18" />
+        </FeatureLayer>
+        <FeatureLayer id="id47" name="Roadface" alias="Roadface" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id19" />
+        </FeatureLayer>
+        <FeatureLayer id="id48" name="WATER" alias="WATER" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id24" />
+        </FeatureLayer>
+        <FeatureLayer id="id49" name="Plant" alias="Plant" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id12" />
+        </FeatureLayer>
+        <FeatureLayer id="id50" name="PUBLIC" alias="PUBLIC" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id14" />
+        </FeatureLayer>
+        <FeatureLayer id="id51" name="Block" alias="Block" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id3" />
+        </FeatureLayer>
+        <FeatureLayer id="id52" name="Administrative" alias="Administrative" volatile="unknown">
+          <Visibility visible="true">
+            <VisibleRange enabled="false">
+              <ZoomRange uom="mapinfo:length mi" minInclusive="true" maxInclusive="true">0 0</ZoomRange>
+            </VisibleRange>
+          </Visibility>
+          <DataSourceRef ref="id1" />
+        </FeatureLayer>
+      </LayerList>
+      <MapLegendSet />
+    </MapDefinition>
+  </MapDefinitionSet>
+  <MapinfoApplicationData>
+    <MapXtremeWindows>
+      <MapToolsSet>
+        <MapTools ref="id26">
+          <BaseMapToolProperties>
+            <MapToolProperties>
+              <InfotipProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.InfoTipLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="drillDown grid vector raster seamless wms" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id28 id29 id30 id31 id32 id33 id34 id35 id36 id37 id38 id39 id40 id41 id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52" />
+                  <LayerExclude refs="id27" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </InfotipProperties>
+              <SnapToNodeProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.SnapLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="vector" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id28 id29 id30 id31 id32 id33 id34 id35 id36 id37 id38 id39 id40 id41 id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52" />
+                  <LayerExclude refs="id27" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </SnapToNodeProperties>
+            </MapToolProperties>
+          </BaseMapToolProperties>
+          <BaseInsertionToolProperties>
+            <InsertionToolProperties>
+              <MapToolFilter name="MapInfo.Tools.MapToolsDefault.InsertionLayers">
+                <MapToolInitialFilter>
+                  <MapLayerVisibilityFilter useVisible="false" useNotVisible="false" />
+                </MapToolInitialFilter>
+                <LayerExclude refs="id27 id28 id29 id30 id31 id32 id33 id34 id35 id36 id37 id38 id39 id40 id41 id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52" />
+                <MapToolFinalFilter>
+                  <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                </MapToolFinalFilter>
+              </MapToolFilter>
+            </InsertionToolProperties>
+          </BaseInsertionToolProperties>
+          <BaseSelectionToolProperties>
+            <SelectionToolProperties>
+              <SelectionProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.SelectLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerTypeFilter types="vector" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id28 id29 id30 id31 id32 id33 id34 id35 id36 id37 id38 id39 id40 id41 id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52" />
+                  <LayerExclude refs="id27" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </SelectionProperties>
+              <EditingProperties>
+                <MapToolFilter name="MapInfo.Tools.MapToolsDefault.EditLayers">
+                  <MapToolInitialFilter>
+                    <MapLayerVisibilityFilter useVisible="false" useNotVisible="false" />
+                  </MapToolInitialFilter>
+                  <LayerInclude refs="id28" />
+                  <LayerExclude refs="id27 id29 id30 id31 id32 id33 id34 id35 id36 id37 id38 id39 id40 id41 id42 id43 id44 id45 id46 id47 id48 id49 id50 id51 id52" />
+                  <MapToolFinalFilter>
+                    <MapLayerVisibilityFilter useVisible="true" useNotVisible="false" />
+                  </MapToolFinalFilter>
+                </MapToolFilter>
+              </EditingProperties>
+            </SelectionToolProperties>
+          </BaseSelectionToolProperties>
+        </MapTools>
+      </MapToolsSet>
+    </MapXtremeWindows>
+  </MapinfoApplicationData>
+</WorkSpace>

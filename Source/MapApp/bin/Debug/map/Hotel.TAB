@@ -1,0 +1,11 @@
+!table
+!version 450
+!charset WindowsSimpChinese
+
+Definition Table
+  Type NATIVE Charset "WindowsSimpChinese"
+  Fields 4
+    Type Smallint ;
+    Name Char (50) ;
+    Class Smallint ;
+    SubType Integer ;

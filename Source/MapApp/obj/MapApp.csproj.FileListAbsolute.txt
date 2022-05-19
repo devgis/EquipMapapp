@@ -1,0 +1,10 @@
+E:\WORK\MapApp\MapApp\bin\Debug\MapApp.exe.config
+E:\WORK\MapApp\MapApp\bin\Debug\MapApp.exe
+E:\WORK\MapApp\MapApp\bin\Debug\MapApp.pdb
+E:\WORK\MapApp\MapApp\obj\Debug\ResolveAssemblyReference.cache
+E:\WORK\MapApp\MapApp\obj\Debug\MapApp.Properties.Resources.resources
+E:\WORK\MapApp\MapApp\obj\Debug\MapApp.csproj.GenerateResource.Cache
+E:\WORK\MapApp\MapApp\obj\Debug\MapApp.exe
+E:\WORK\MapApp\MapApp\obj\Debug\MapApp.pdb
+E:\WORK\MapApp\MapApp\obj\Debug\MapApp.MainForm.resources
+E:\WORK\MapApp\MapApp\obj\Debug\MapApp.AddEquip.resources
